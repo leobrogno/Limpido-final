@@ -1,0 +1,5 @@
+footer{
+    background-color: $colorFondo;
+    color: $colorClaro;
+    @extend %tipografiaParrafo;
+}

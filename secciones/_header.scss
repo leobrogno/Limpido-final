@@ -1,0 +1,11 @@
+.header{
+    background-color: $colorFondo
+}
+
+
+nav{
+    @extend %tipografiaParrafo;
+.navegador{
+    color: $colorParrafo;
+}
+}

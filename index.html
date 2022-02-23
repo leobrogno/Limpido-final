@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- link animate -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- link tipografia fuerte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <!-- link tipografia -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+  <!-- link boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- link style -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header class="row d-flex justify-content-between header">
+      <img class="col-6 logoLimpido" src="./img/LIMPIDO SA (1).png" alt="logo">
+      <nav class="col-6 navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active navegador" aria-current="page" href="./index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navegador" href="./paginas/capacitaciones.html">Capacitaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navegador" href="./paginas/nosotros.html">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navegador" href="./paginas/servicios.html">Nuestros Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navegador" href="./paginas/contacto.html">Contacto</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="row">
+      <div id="carouselExampleCaptions" class="col-12 primeraSeccion carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="col-12 carousel-inner">
+          <div class="col-12 carousel-item active">
+            <img src="./img/serviciolimpieza1.jpg" class="d-block w-100" alt="servicio de limpieza">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="descripcionFoto">Somos una empresa Argentina dedicada al servicio de limpieza profesional</h1>
+              <p class="descripcionFoto">Para ello contamos con personal capacitado para desarrollar el plan de trabajo
+                que se ajuste a sus
+                necesidades.
+
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/serviciolimpieza2.jpg" class="d-block w-100" alt="servicio de limpieza">
+            <div class="carousel-caption d-none d-md-block">
+              <h1 class="descripcionFoto">Contamos con personal especializado, responsable y cuidadoso.</h1>
+              <p class="descripcionFoto">Se utilizará para la realización del servicio, personal identificado mediante
+                un estudio de
+                documentación, correctamente uniformados, dirigidos por un encargado y controlados por un supervisor
+                zonal, quienes actuarán bajo el control directo de nuestro Departamento
+                de Operaciones.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/serviciolimpieza3.jpg" class="d-block w-100" alt="servicio de limpieza">
+            <div class="carousel-caption d-none d-md-block subtitulo">
+              <h1 class="descripcionFoto">Confeccionamos un Manual del Servicio de limpieza a la medidas de sus
+                necesidades.</h1>
+              <p class="descripcionFoto">Estamos en condiciones de garantizar niveles de calidad total porque es la
+                preocupación fundamental
+                dentro de nuestra empresa.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div data-aos="fade-up" data-aos-once="false">
+        <h2 class="col-12">
+          Clientes que nos eligen
+        </h2>
+      </div>
+      <div class="row d-flex justify-content-around" data-aos="fade-up" data-aos-once="false">
+        <div class="col-sm-12 col-md 4 col-lg-4 card  border-0" style="width: 5rem;">
+          <img src="./img/gefco.jpg" class="col-sm-12 col-md 4 col-lg-4 card-img-top imgLogo" alt="Logo Gefco">
+        </div>
+        <div class="col-sm-12 col-md 4 col-lg-4 card border-0" style="width: 5rem;">
+          <img src="./img/casasco.png" class="col-sm-12 col-md 4 col-lg-4 card-img-top imgLogo" alt="Logo Casasco">
+        </div>
+        <div class="col-sm-12 col-md 4 col-lg-4 card border-0" style="width: 5rem;">
+          <img src="./img/merk logo.jpg" class="col-sm-12 col-md 4 col-lg-4 card-img-top imgLogo" alt="Logo Merck">
+        </div>
+      </div>
+      <h2 class="subtitulo" data-aos="fade-up" data-aos-once="false">
+        Donde nos encontramos?
+      </h2>
+      <div class="row d-flex align-items-center ubicacion">
+        <div class="col-12">
+          <p class="ubicacion" data-aos="fade-up" data-aos-once="false">
+            A solo una cuadra de la Av. Juan de Garay y a tres de la autopista 25 de Mayo, nos encontramos en una
+            ubicación estrategica de la ciudad de Buenos Aires.
+          </p>
+        </div>
+        <iframe class="col-12" data-aos="fade-up" data-aos-once="false"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.919447087311!2d-58.42596168527179!3d-34.63147586647338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbac90866dc3%3A0xe3d616f2265d47df!2sLimpido!5e0!3m2!1ses-419!2sar!4v1644593432252!5m2!1ses-419!2sar"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+      </div>
+
+
+    </main>
+    <footer class="row d-flex justify-content-between">
+      <div class="col-4 datosEmpresa">
+        <h4>Limpido SA</h4>
+        <address>Av. Pavón 4254/56 (C1253 ABN) <br> Ciudad de Buenos Aires - Argentina</address>
+        <p>Tel.: (54 11) 4921-4343 Líneas rotativas</p>
+        <email> limpido@limpido.com.ar</email>
+
+      </div>
+      <div class="col-sm-12 col-md-12 col-lg-4 d-flex justify-content-around  align-items-center">
+        <img class=" img-fluid logoLimpido" src="./img/LIMPIDO SA (1).png" alt="logo">
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-4 d-flex justify-content-around  align-items-center">
+        <img class="logoIso" src="./img/logoiso.jpg" alt="logoiso">
+      </div>
+      <div><br></div>
+      <div class="col-12 legal">
+        <p class="text-center">Están reservados todos los derechos</p>
+      </div>
+    </footer>
+
+  </div>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      once: false
+    });
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+</body>
+
+</html>

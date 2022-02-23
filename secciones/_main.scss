@@ -1,0 +1,102 @@
+
+main{
+    height: 1800px;
+    p{
+        @extend %tipografiaParrafo;
+    }
+    h1{
+        @extend %tipografiaTitulos;
+    }
+
+    h2{
+        @extend %tipografiaSubtitulos;
+    }
+    .primeraSeccion{
+        background-color: $colorFondo;
+    }
+
+    .descripcionFoto{
+        background-image: linear-gradient(90deg, rgba(0,0,0,0.39026032776391806) 29%, rgba(190,190,190,0.4042659300048145) 59%);
+    }
+.ubicacion{
+    display: flex;
+    justify-content: center;
+}
+}
+
+.logoLimpido{
+    width: 175px;
+    height: 150px;
+}
+
+.imgLogo{
+    width: 100px;
+    height: 100px;
+}
+
+.logoIso{
+    width: 175px;
+    height: 80px;
+}
+
+.nosotros{
+    height: 800px;
+background-image: url('../img/close-up-set-of-home-cleaning-products-in-bright-basket-means-for-maintaining-cleanliness-background.jpg');   
+background-size: 100%;
+background-repeat: no-repeat;
+
+}
+
+.mainCapacitaciones{
+    height: 1600px;
+}
+.parrafoCapacitacion{
+    background-color: $colorFondo;
+    color: $colorClaro;
+    h1{
+        @extend %tipografiaTitulos;
+    }
+    p{
+@extend %tipografiaParrafo;
+    }
+}
+
+.imagenCapacitacion{
+    width: 75%;
+    height: 75%;
+}
+
+.seccionCapacitacion{
+background-color: $colorClaro;
+
+
+.capacitacionPersonal{
+    @extend %tipografiaParrafo;
+}
+}
+
+.tituloNosotros{
+    @extend %tipografiaTitulos;
+}
+.parrafoNosotros{
+    @extend %tipografiaParrafo;
+}
+
+@media (max-width:576px) {
+
+    .mainServicios{
+        height: 2900px;
+    }
+    .parrafoCapacitacion{
+        height: 500px;
+    }
+
+    .imagenCapacitacion{
+        width: 100%;
+        height: 75%;
+    }
+
+    .nosotros{
+        height: 1100px;
+    }
+}
