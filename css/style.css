@@ -60,6 +60,11 @@ main {
 .seccionCapacitacion {
   background-color: #b6b6b6; }
 
+.mainContacto {
+  height: 600px;
+  background: white;
+  background: linear-gradient(151deg, white 83%, #806eaa 83%, #22263e 84%, #94bbe9 100%); }
+
 @media (max-width: 576px) {
   .mainServicios {
     height: 2900px; }
@@ -69,7 +74,9 @@ main {
     width: 100%;
     height: 75%; }
   .nosotros {
-    height: 1100px; } }
+    height: 900px; }
+  .mainContacto {
+    height: 900px; } }
 
 .header {
   background-color: #22263e; }

@@ -82,6 +82,12 @@ background-color: $colorClaro;
     @extend %tipografiaParrafo;
 }
 
+.mainContacto{
+    height: 600px;
+    background: rgb(255,255,255);
+background: linear-gradient(151deg, rgba(255,255,255,1) 83%, rgba(128,110,170,1) 83%, rgba(34,38,62,1) 84%, rgba(148,187,233,1) 100%);
+}
+
 @media (max-width:576px) {
 
     .mainServicios{
@@ -97,6 +103,11 @@ background-color: $colorClaro;
     }
 
     .nosotros{
-        height: 1100px;
+        height: 900px;
+    }
+
+    .mainContacto{
+        height: 900px;
+        
     }
 }
