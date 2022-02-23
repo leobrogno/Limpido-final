@@ -6,7 +6,7 @@ main p, .parrafoCapacitacion p, .seccionCapacitacion .capacitacionPersonal, .par
   font-size: 14px;
   font-family: 'Montserrat', sans-serif; }
 
-main h2 {
+main h2, .subtitulo {
   font-size: 26px;
   font-family: 'Montserrat', sans-serif;
   text-align: center; }
@@ -27,6 +27,9 @@ main {
   main .ubicacion {
     display: flex;
     justify-content: center; }
+
+.subtitulo {
+  color: #22263e; }
 
 .logoLimpido {
   width: 175px;
@@ -59,6 +62,9 @@ main {
 
 .seccionCapacitacion {
   background-color: #b6b6b6; }
+
+.tituloNosotros {
+  color: #22263e; }
 
 .mainContacto {
   height: 600px;
